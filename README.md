@@ -1,5 +1,11 @@
 # Google Foobar
 
+## Table of Contents
+
+  1. [Introduction](#Introduction)
+  2. [Foobar Process](#foobar-process)
+  3. [Generating Documentation](#generating-documentation)
+
 ## Introduction
 
 During a routine google search to explore various programming concepts, 
@@ -34,4 +40,14 @@ will be done in Python as I am much more comfortable in that language.
     - Challenge 2
       72 Hour time limit
 
+## Generating Documentation
+
+If you would like to use Doxygen to review the documentation:
+
+```bash
+sudo apt-get install doxygen graphviz
+cd ~/path/to/this/repo
+doxygen
+firefox ./doc/html/index.html &
+```
 

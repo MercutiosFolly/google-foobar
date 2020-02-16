@@ -3,7 +3,7 @@
 # @author   James Hind
 # @date     2/11/2020
 #
-# @detailS
+# @details
 #   You need to pass a message to the bunny prisoners, but to avoid detection, the
 #   code you agreed to use is... obscure, to say the least. The bunnies are given 
 #   food on standard-issue prison plates that are stamped with the numbers 0-9 for 
@@ -28,7 +28,7 @@ import itertools    # permutations()
 #####################################################################
 # @brief    Organizes a given list of digits (up to nine) to create 
 #           the largest number that is divisible by three.
-# @param    L A list containing up to 9 digits
+# @param    l A list containing up to 9 digits
 # @return   The largest integer custructed from L which is divisible
 #           by 3. Each element of L is used only once.
 # @return   0 if no combination is divisible by three
