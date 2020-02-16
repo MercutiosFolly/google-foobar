@@ -3,15 +3,17 @@
 # @author   James Hind
 # @date     2/11/2020
 #
-# @brief
-#   During a routine google search to explore the intricacies of
-#   Python, a message appeared saying something along the lines of
-#   "You're speaking our language, would you like a challenge?"
-#   After saying yes, the search page fall away revealing a terminal-
-#   like interface with a story and a set of challenges.
-#   These are the attempted solutions to those challenges.
+# @details
+#   (paraphrased)
+#   You have managed to infiltrate Commander Lambda's army but you
+#   are only a lowly minion. Find a way to prove yourself and move
+#   up the ranks.
 #
-#   google.com/foobar
+#   Minion tasks are kept in a large file which contain lists of
+#   of their ID numbers. However, if minions are overworked they
+#   tend to complain. Find a way of preventing this by identifying
+#   if a minion is going to complain and fixing it.
+#
 #
 #####################################################################
 

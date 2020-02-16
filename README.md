@@ -28,7 +28,10 @@ set up behind the scene, you are sent to the next level.
 The challenges can be undertaken in both Java and Python 2.7. My solutions
 will be done in Python as I am much more comfortable in that language.
 
-Challenge 1: 48 Hour time limit
-Challenge 2: 72 Hour time limit
+    - Challenge 1
+      48 Hour time limit 
+
+    - Challenge 2
+      72 Hour time limit
 
 
