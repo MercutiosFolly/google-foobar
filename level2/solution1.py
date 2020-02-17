@@ -1,5 +1,5 @@
 #####################################################################
-# @file     solution2.py
+# @file     level2/solution1.py
 # @author   James Hind
 # @date     2/11/2020
 #
@@ -28,7 +28,7 @@ import itertools    # permutations()
 #####################################################################
 # @brief    Organizes a given list of digits (up to nine) to create 
 #           the largest number that is divisible by three.
-# @param    l A list containing up to 9 digits
+# @param l  A list containing up to 9 digits
 # @return   The largest integer custructed from L which is divisible
 #           by 3. Each element of L is used only once.
 # @return   0 if no combination is divisible by three
@@ -131,6 +131,7 @@ def main( ):
 
     return 0
 
+#####################################################################
 if __name__ == "__main__":
     if main() == 0:
         print "\n\nPASS\n\n"

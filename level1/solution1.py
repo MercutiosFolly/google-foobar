@@ -1,5 +1,5 @@
 #####################################################################
-# @file     solution1.py
+# @file     level1/solution1.py
 # @author   James Hind
 # @date     2/11/2020
 #
@@ -39,3 +39,28 @@ def solution( data, n ):
     # We now have a list of items to remove from data. Return a list
     # with all occurrences of these entries removed from data.
     return [ y for y in data if y not in remove_list ]
+
+
+
+#####################################################################
+# @brief    Executes a few test cases for `solution( data, n )`
+# @todo     Actually test it instead of inspect
+def main():
+    tests = { "test1": [ [1, 4, 4, 5, 5, 6], 1 ],
+              "test2": [ [1, 1, 1, 1, 4, 4, 4, 5, 5, 6, 1, 4, 5], 1 ],
+              "test3": [ [1, 1, 1, 1, 4, 4, 4, 5, 5, 6, 1, 4, 5], 2 ],
+              "test4": [ [1, 1, 1, 1, 4, 4, 4, 5, 5, 6, 1, 4, 5], 3 ],
+              "test5": [ [1, 1, 1, 1, 4, 4, 4, 5, 5, 6, 1, 4, 5], 4 ] }
+
+    for key, val in tests.items():
+        print "Performing {}".format( key )
+        print solution( val[0], val[1] )
+
+    return 0
+
+#####################################################################
+if __name__ == "__main__":
+    if main() == 0:
+        print "\n\nPASS\n\n"
+    else:
+        print "\n\nFAIL\n\n"
